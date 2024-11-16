@@ -9,7 +9,7 @@ WORKDIR usr/src/sapelly
 COPY . /sapelly
 
 # Compile the Java file
-RUN javac hello.java
+RUN javac index.java
 
 # Run the Java application
-CMD ["java", "hello"]
+CMD ["java", "index"]
